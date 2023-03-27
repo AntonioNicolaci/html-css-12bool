@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container, .container div, #quarto-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container div{
+    margin: 1px;
+    padding: 1em;
+    color: #fff;
+    background-color: #006CFA;
+}
+.container div div{
+    background-color: #00E165;
+}
+#secondo-div div{
+    padding: 2em;
+}
+#terzo-div .container div{
+    padding: 1.5em;
+}
+#quarto-div{
+    flex-direction: column;
+}
+#quarto-div div{
+    background-color: #006CFA;
+}
